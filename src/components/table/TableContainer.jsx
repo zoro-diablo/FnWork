@@ -17,6 +17,7 @@ import { data1, data2 , data3 } from '../../data/data'
 import { motion } from 'framer-motion'
 import { AiFillNotification } from 'react-icons/ai'
 import { AiOutlineInsertRowRight } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 let tabs = [
   { id: 0, label: 'Recent (5)', },
@@ -121,7 +122,7 @@ const TableContainer = () => {
               {data1.map((item, index) => (
                 <TableRow key={index} className='hover:bg-slate-100'>
                   <TableCell>
-                    {item.deductorName}
+                    <Link to='/company'>{item.deductorName}</Link>
                   </TableCell>
                   <TableCell>
                     {item.tan}

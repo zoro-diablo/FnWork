@@ -2,9 +2,9 @@ import { IoMdContact } from 'react-icons/io'
 import { PiPhoneCallBold } from 'react-icons/pi'
 import { motion } from 'framer-motion'
 import Framer from '../magframer/Framer'
-import logo from '../../assets/logo.png'
 import Profile from '../profile/Profile'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const textVariants = {
   initial: {
@@ -52,7 +52,9 @@ const Navbar = () => {
                 variants={textVariants}
                 className='mt-1 ml-5 font-mono font-semibold text-2xl'
               >
-                <img src={logo} alt='fnmoney' width={110} />
+                <Link to='/home'>
+                  <img src='/logo.png' alt='fnmoney' width={110} />
+                </Link>
               </motion.div>
             </motion.div>
           </div>
