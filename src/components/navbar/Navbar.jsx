@@ -52,7 +52,7 @@ const Navbar = () => {
                 variants={textVariants}
                 className='mt-1 ml-5 font-mono font-semibold text-2xl'
               >
-                <Link to='/home'>
+                <Link to='/'>
                   <img src='/logo.png' alt='fnmoney' width={110} />
                 </Link>
               </motion.div>

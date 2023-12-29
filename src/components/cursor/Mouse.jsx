@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import './cursor.css'
 
-const Cursor = () => {
+const Mouse = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
@@ -25,4 +25,4 @@ const Cursor = () => {
   )
 }
 
-export default Cursor
+export default Mouse
