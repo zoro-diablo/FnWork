@@ -1,0 +1,122 @@
+export const data1 = [
+  {
+    deductorName: 'Bir Billionaire India Private Limited',
+    tan: 'BLRB200778',
+    location: 'Bangalore',
+    deductorType: 'Company',
+    mobileNo: '9789439086',
+    emailAddress: 'thanuassociates@gmail.com',
+  },
+  {
+    deductorName: 'Gregori Michael Bose',
+    tan: 'MRIG03206A',
+    location: 'Nagercoil',
+    deductorType: 'Individual/HUF',
+    mobileNo: '9789439086',
+    emailAddress: 'thanuassociates@gmail.com',
+  },
+  {
+    deductorName: 'Gkl Food Products Private Limited',
+    tan: 'CHEG19399C',
+    location: 'Cuddalore',
+    deductorType: 'Company',
+    mobileNo: '9840396493',
+    emailAddress: 'thanuassociates@gmail.com',
+  },
+  {
+    deductorName: 'Suralisha Community Centre For Family Health',
+    tan: 'MRISO58118',
+    location: 'Chunkankadai',
+    deductorType: 'AOP (Trust)',
+    mobileNo: '9944467906',
+    emailAddress: 'thanuassociates@gmail.com',
+  },
+  {
+    deductorName: 'Alphonsa Matric Higher Sec School',
+    tan: 'MRIA03375B',
+    location: 'Kanyakumari...',
+    deductorType: 'Association of Person (AOP)',
+    mobileNo: '9487084901',
+    emailAddress: 'thanuassociates@gmail.com',
+  },
+]
+
+export const data2 = [
+  {
+    name: 'John Doe',
+    age: 35,
+    occupation: 'Engineer',
+    location: 'New York',
+    email: 'johndoe@example.com',
+    year: '2018',
+  },
+  {
+    name: 'Alice Smith',
+    age: 28,
+    occupation: 'Designer',
+    location: 'San Francisco',
+    email: 'alice.smith@example.com',
+    year: '2018',
+  },
+  {
+    name: 'Robert Johnson',
+    age: 42,
+    occupation: 'Manager',
+    location: 'Chicago',
+    email: 'robert.johnson@example.com',
+    year: '2018',
+  },
+  {
+    name: 'Emily Davis',
+    age: 30,
+    occupation: 'Writer',
+    location: 'Los Angeles',
+    email: 'emily.davis@example.com',
+    year: '2018',
+  },
+]
+
+export const data3 = [
+  {
+    id: '',
+    category: '',
+    title: '',
+    author: '',
+    year: '',
+  },
+  // {
+  //   id: 2,
+  //   category: 'Science',
+  //   title: 'Sapiens: A Brief History of Humankind',
+  //   author: 'Yuval Noah Harari',
+  //   year: 2014,
+  // },
+  // {
+  //   id: 3,
+  //   category: 'Fantasy',
+  //   title: 'The Name of the Wind',
+  //   author: 'Patrick Rothfuss',
+  //   year: 2007,
+  // },
+  // {
+  //   id: 4,
+  //   category: 'Science Fiction',
+  //   title: 'Dune',
+  //   author: 'Frank Herbert',
+  //   year: 1965,
+  // },
+  // {
+  //   id: 5,
+  //   category: 'Mystery',
+  //   title: 'The Girl with the Dragon Tattoo',
+  //   author: 'Stieg Larsson',
+  //   year: 2005,
+  // },
+  // {
+  //   id: 6,
+  //   category: 'History',
+  //   title: 'A People’s History of the United States',
+  //   author: 'Howard Zinn',
+  //   year: 1980,
+  // },
+]
