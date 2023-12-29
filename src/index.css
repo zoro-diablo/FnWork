@@ -40,3 +40,24 @@ body {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.tremor-BarList-bar{
+  padding: 30px 0;
+  margin:20px 0 ;
+  font-weight: 500;
+}
+
+.tremor-BarList-labelText{
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-right: 20px;
+  display: grid;
+  gap: 80px;
+}
+
+.tremor-BarList-labelWrapper{
+  margin-bottom: 30px;
+  padding-top: 55px;
+  font-weight: bold;
+  /* margin-top: 30px; */
+}

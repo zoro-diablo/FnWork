@@ -1,9 +1,11 @@
+import NoticeOrders from "./left sub box/NoticeOrders"
 import ReturnSummary from "./left sub box/ReturnSummary"
 
 const Left = () => {
   return (
-    <div className='badge'>
+    <div className=''>
       <ReturnSummary />
+      <NoticeOrders />
     </div>
   )
 }

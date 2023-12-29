@@ -64,7 +64,7 @@ const data = [
 
 const ReturnSummary = () => (
   <Card
-    className='h-[492px] bg-slate-50  '
+    className='h-[492px] bg-slate-50 badge '
     decoration='top'
     decorationColor='emerald'
   >

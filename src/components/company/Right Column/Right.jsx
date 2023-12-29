@@ -12,6 +12,7 @@ import {
 } from '@tremor/react'
 import { FaMoneyCheck } from 'react-icons/fa'
 import { FaCheck } from 'react-icons/fa'
+import Challans from './right sub box/Challans'
 
 const Right = () => {
   return (
@@ -58,7 +59,7 @@ const Right = () => {
       </Card>
       <div className='flex mt-5 gap-x-2'>
         <Card
-          className='w-[95%] mx-auto '
+          className='w-[95%] mx-auto badge'
           decoration='left'
           decorationColor='indigo'
         >
@@ -69,18 +70,18 @@ const Right = () => {
             <BadgeDelta deltaType='moderateIncrease' />
           </div>
           <div className='flex gap-x-5 mt-6'>
-            <div className=' justify-between items-center'>
-              <Title>No of Transaction</Title>
-              <Metric className='text-gray-400 mt-2'>$ 34,743</Metric>
+            <div className=' justify-between items-center font-medium'>
+              <Subtitle>No of Transaction</Subtitle>
+              <Metric className='text-gray-900 mt-2'>$ 34,743</Metric>
             </div>
-            <div className=' justify-between items-center'>
-              <Title>Unmapped Amt</Title>
-              <Metric className='text-gray-400 mt-2'>$743</Metric>
+            <div className=' justify-between items-center font-medium'>
+              <Subtitle>Unmapped Amt</Subtitle>
+              <Metric className='text-gray-900 mt-2'>$743</Metric>
             </div>
           </div>
         </Card>
         <Card
-          className='w-[95%] mx-auto '
+          className='w-[95%] mx-auto badge'
           decoration='left'
           decorationColor='rose'
         >
@@ -91,17 +92,18 @@ const Right = () => {
             <BadgeDelta deltaType='moderateDecrease' />
           </div>
           <div className='flex gap-x-5 mt-6'>
-            <div className=' justify-between items-center'>
-              <Title>No of Transaction</Title>
-              <Metric className='text-gray-400 mt-2'>$ 69</Metric>
+            <div className=' justify-between items-center font-medium'>
+              <Subtitle>No of Transaction</Subtitle>
+              <Metric className='text-gray-900 mt-2'>$ 69</Metric>
             </div>
-            <div className=' justify-between items-center'>
-              <Title>Unmapped Amt</Title>
-              <Metric className='text-gray-400 mt-2'>$ 0</Metric>
+            <div className=' justify-between items-center font-medium'>
+              <Subtitle>Unmapped Amt</Subtitle>
+              <Metric className='text-gray-900 mt-2'>$ 0</Metric>
             </div>
           </div>
         </Card>
       </div>
+      <Challans />
     </div>
   )
 }
