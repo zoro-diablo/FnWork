@@ -120,3 +120,216 @@ export const data3 = [
   //   year: 1980,
   // },
 ]
+
+export const outCol = [
+  { id: 'name', label: '', minWidth: 70, subName: '',align:'center' },
+  { id: 'name', label: 'Short Payment', minWidth: 120, subName: '(A)',align:'center' },
+  { id: 'code', label: 'Short Deduction', minWidth: 120, subName: '(B)',align:'center' },
+  {
+    id: 'population',
+    label: 'Int. on Payments Default u/s 201',
+    minWidth: 170,
+    subName: '(C)',
+    align: 'center',
+    format: (value) => value.toLocaleString('en-US'),
+  },
+  {
+    id: 'size',
+    label: 'Int. on Deduction Default u/s 201',
+    minWidth: 150,
+    subName: '(D)',
+    align: 'center',
+    format: (value) => value.toLocaleString('en-US'),
+  },
+  {
+    id: 'density',
+    label: 'Late Filing Fee u/s 234E',
+    minWidth: 150,
+    subName: '(E)',
+    align: 'center',
+    format: (value) => value.toFixed(2),
+  },
+  {
+    id: '',
+    label: 'Interest u/s 220(2)',
+    minWidth: 150,
+    subName: '(F)',
+    align: 'center',
+    format: (value) => value.toFixed(2),
+  },
+  {
+    id: '',
+    label: 'Total Processed Demand',
+    minWidth: 150,
+    subName: '(G = Sum of A - F)',
+    align: 'center',
+    format: (value) => value.toFixed(2),
+  },
+  {
+    id: '',
+    label: 'Total Outstanding Demand',
+    minWidth: 170,
+    subName: '(H)',
+    align: 'center',
+    format: (value) => value.toFixed(2),
+  },
+  {
+    id: '',
+    label: 'Total Paid',
+    minWidth: 170,
+    subName: '(I=G+H)',
+    align: 'center',
+    format: (value) => value.toFixed(2),
+  },
+ 
+]
+
+export const chartdata3 = [
+  {
+    date: 'Jan 23',
+    Inoperative: 167,
+    Operative: 145,
+    invalid: 135,
+    unverified: 115,
+    PNNOTAVBL: 150,
+  },
+  {
+    date: 'Feb 23',
+    Inoperative: 125,
+    Operative: 110,
+    invalid: 155,
+    unverified: 85,
+    PNNOTAVBL: 180,
+  },
+  {
+    date: 'Mar 23',
+    Inoperative: 156,
+    Operative: 149,
+    invalid: 145,
+    unverified: 90,
+    PNNOTAVBL: 130,
+  },
+  {
+    date: 'Apr 23',
+    Inoperative: 165,
+    Operative: 112,
+    invalid: 125,
+    unverified: 105,
+    PNNOTAVBL: 170,
+  },
+  {
+    date: 'May 23',
+    Inoperative: 153,
+    Operative: 138,
+    invalid: 165,
+    unverified: 100,
+    PNNOTAVBL: 110,
+  },
+  {
+    date: 'Jun 23',
+    Inoperative: 124,
+    Operative: 145,
+    invalid: 175,
+    unverified: 75,
+    PNNOTAVBL: 140,
+  },
+]
+
+export const chartdata = [
+  {
+    name: 'Q2 | 2022-23',
+    Liability: 0,
+  },
+  {
+    name: 'Q3 | 2022-23',
+    Liability: 200,
+  },
+  {
+    name: 'Q4 | 2022-23',
+    Liability: 100000,
+  },
+  {
+    name: 'Q1 | 2022-24',
+    Liability: 150000,
+  },
+  {
+    name: 'Q2 | 2022-24',
+    Liability: 200000,
+  },
+]
+
+export const columnsnotice = [
+  {
+    field: 'id',
+    headerName: 'ID',
+    width: 40,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'fy',
+    headerName: 'FY',
+    width: 40,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'date',
+    headerName: 'Date',
+    width: 110,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'form',
+    headerName: 'Form | Qtr',
+    width: 90,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'subject',
+    headerName: 'Subject',
+    type: 'number',
+    width: 110,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'ref',
+    headerName: 'Reference No',
+    type: 'number',
+    width: 110,
+    align: 'center',
+    headerAlign: 'center',
+  },
+  {
+    field: 'action',
+    headerName: 'Actions',
+    type: 'number',
+    width: 90,
+    align: 'center',
+    headerAlign: 'center',
+  },
+]
+
+export const rowsnotice = [
+  {
+    id: 1,
+    fy: 2,
+    form: 'QE34',
+    date: '02/05/2000',
+    subject: 'published',
+    ref: 22,
+    action: 'no',
+  },
+  {
+    id: 2,
+    fy: 2,
+    form: 'Q67',
+    date: '02/05/2000',
+    subject: 'returned',
+    ref: 23,
+    action: 'no',
+  },
+]

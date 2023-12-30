@@ -17,7 +17,7 @@ import Challans from './right sub box/Challans'
 const Right = () => {
   return (
     <div>
-      <Card decoration='top' decorationColor='amber' className='badge '>
+      <Card decoration='top' decorationColor='amber' className='badge  '>
         <div className='flex justify-between'>
           <Title>PAN Status & Compliance Check </Title>
           <Badge icon={FaMoneyCheck}>
@@ -59,12 +59,12 @@ const Right = () => {
       </Card>
       <div className='flex mt-5 gap-x-2'>
         <Card
-          className='w-[95%] mx-auto badge'
+          className='w-[95%] mx-auto badge bg-gradient-to-r from-black to-gray-900 '
           decoration='left'
-          decorationColor='indigo'
+          decorationColor='blue'
         >
           <div className='flex justify-between'>
-            <Text className='text-black font-semibold bg-slate-200 px-3  rounded-lg mb-2'>
+            <Text className='text-black font-semibold bg-slate-200 px-3  rounded-lg mb-2 shadow-white shadow-sm'>
               Regular | Form 26Q | Q3
             </Text>
             <BadgeDelta deltaType='moderateIncrease' />
@@ -72,21 +72,21 @@ const Right = () => {
           <div className='flex gap-x-5 mt-6'>
             <div className=' justify-between items-center font-medium'>
               <Subtitle>No of Transaction</Subtitle>
-              <Metric className='text-gray-900 mt-2'>$ 34,743</Metric>
+              <Metric className='text-white mt-2'>₹ 34,743</Metric>
             </div>
             <div className=' justify-between items-center font-medium'>
               <Subtitle>Unmapped Amt</Subtitle>
-              <Metric className='text-gray-900 mt-2'>$743</Metric>
+              <Metric className='text-white mt-2'>₹ 743</Metric>
             </div>
           </div>
         </Card>
         <Card
-          className='w-[95%] mx-auto badge'
+          className='w-[95%] mx-auto badge bg-gradient-to-r from-black to-gray-900'
           decoration='left'
           decorationColor='rose'
         >
           <div className='flex justify-between'>
-            <Text className='text-black font-semibold bg-slate-200 px-3  rounded-lg mb-2'>
+            <Text className='text-black font-semibold bg-slate-200 px-3  rounded-lg mb-2 shadow-white shadow-sm'>
               Correction | Form 26Q | Q2
             </Text>
             <BadgeDelta deltaType='moderateDecrease' />
@@ -94,11 +94,11 @@ const Right = () => {
           <div className='flex gap-x-5 mt-6'>
             <div className=' justify-between items-center font-medium'>
               <Subtitle>No of Transaction</Subtitle>
-              <Metric className='text-gray-900 mt-2'>$ 69</Metric>
+              <Metric className=' mt-2 text-white'>₹ 69</Metric>
             </div>
             <div className=' justify-between items-center font-medium'>
               <Subtitle>Unmapped Amt</Subtitle>
-              <Metric className='text-gray-900 mt-2'>$ 0</Metric>
+              <Metric className=' mt-2 text-white'>₹ 0</Metric>
             </div>
           </div>
         </Card>

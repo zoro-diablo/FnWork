@@ -1,13 +1,15 @@
-import EnhancedTable from '../Right Bottom/SubRightBottom/TopDeductees'
+
 import BarChartDig from './SubLeftBottom/BarChartDig'
+import TopDeductees23 from './SubLeftBottom/TopDeductees23'
+import TopDeductees27 from './SubLeftBottom/TopDeductees27'
 
 
 const LeftBottom = () => {
   return (
     <div>
       <BarChartDig />
-      <EnhancedTable />
-      <EnhancedTable />
+      <TopDeductees23 />
+      <TopDeductees27 />
     </div>
   )
 }

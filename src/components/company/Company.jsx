@@ -1,3 +1,4 @@
+import BusinessNav from './BusinessNav.jsx'
 import LeftBottom from './Left Bottom/LeftBottom.jsx'
 import LeftContainer from './Left Column/LeftContainer.jsx'
 import Outstanding from './Outstanding.jsx'
@@ -7,6 +8,9 @@ import Right from './Right Column/Right.jsx'
 const Company = () => {
   return (
     <div className='w-full grid grid-cols-2 gap-4 mt-5 '>
+      <div className='col-span-2 w-[98%] mx-auto '>
+        <BusinessNav />
+      </div>
       <div className='w-[98%] ml-4'>
         <LeftContainer />
       </div>
@@ -17,10 +21,10 @@ const Company = () => {
         <Outstanding />
       </div>
       <div className='w-[98%] ml-4'>
-      <LeftBottom />
+        <LeftBottom />
       </div>
       <div className='w-[98%]'>
-       <RightBottom />
+        <RightBottom />
       </div>
     </div>
   )

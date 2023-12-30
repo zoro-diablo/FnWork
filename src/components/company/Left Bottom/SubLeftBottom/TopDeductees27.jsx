@@ -6,8 +6,7 @@ import TableContainer from '@mui/material/TableContainer'
 import TableHead from '@mui/material/TableHead'
 import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
-import { Card, Title , Badge } from '@tremor/react'
-
+import { Card, Title,Badge } from '@tremor/react'
 
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -34,33 +33,26 @@ function createData(name, section, tax) {
   return { name, section, tax }
 }
 
- const toprows1 = [
-   createData('Sundaravadivel Balasubramanian', '194J(a)', '46,800.00'),
-   createData('Senthilkumar Rajendran', '194J(a)', '10,110.00'),
-   createData('Vanitha Ramaswamy', '194J(a)', '7,110.00'),
-  //  createData('Srinivasan Raghunathan', '194J(a)', '5,110.00'),
-  //  createData('Prakash Poornesh', '194J(a)', '3,110.00'),
-   createData('Doon ', '194J(a)', '1,110.00'),
+const toprows1 = [
+  createData('Sundaravadivel Balasubramanian', '195', '46,800.00'),
+  createData('Senthilkumar Rajendran','195','10,110.00'),
+  createData('Vanitha Ramaswamy','195','7,110.00'),
+  createData('Srinivasan Raghunathan','195','5,110.00'),
+  createData(),
 
- ]
+]
 
-
-
-
-const TopDeductees = () => {
+const TopDeductees27 = () => {
   return (
     <Card className='mt-5 badge mb-4'>
       <div className='flex justify-between'>
         <Title className='mb-6'>Top Deductees for FY 2023-24 </Title>
         <Badge className='w-[100px] h-[20px] font-bold text-lg bg-gray-300 text-black border-2 border-black py-4 shadow mr-5'>
-          Form 26Q
+          Form 27Q
         </Badge>
       </div>
       <TableContainer component={Paper}>
-        <Table
-          sx={{ minWidth: 550, minHeight: 270 }}
-          aria-label='customized table'
-        >
+        <Table sx={{ minWidth: 550 }} aria-label='customized table'>
           <TableHead>
             <TableRow>
               <StyledTableCell align='center'>Name</StyledTableCell>
@@ -89,6 +81,4 @@ const TopDeductees = () => {
   )
 }
 
-
-
-export default TopDeductees
+export default TopDeductees27
